@@ -1,6 +1,7 @@
 body {
-   height:300vh;
+    height:300vh;
     background-color: #161616;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main {
@@ -28,26 +29,23 @@ header {
 }
 
 h1{
-    font-family: 'Sonsie One';
-    font-size: 35px;
-    line-height: 55px;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 70px;
     color: rgb(229, 226, 226);
 }
 
 h2{
-    font-family: 'Oswald';
     font-size: 25px;
     color: rgb(229, 226, 226);
 }
 
-h3{
-    
+h3{  
     font-size: 22px;
     background-color: white;
 }
 
 h4{
-    font-family: 'Oswald';
     font-size: 18px;
     color: white;
     padding: 10px;
@@ -63,8 +61,7 @@ p{
     border-bottom: 1px dotted #000000;
     background-color: white;
     color: black;
-    font-family: 'EB Garamond';
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
 }
 
