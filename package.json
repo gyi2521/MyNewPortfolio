@@ -1,0 +1,20 @@
+{
+  "name": "MyNewPortfolio",
+  "version": "1.0.0",
+  "description": "My portfolio - https://gyi2521.github.io/MyNewPortfolio/",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass -o css scss -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyi2521/MyNewPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gyi2521/MyNewPortfolio/issues"
+  },
+  "homepage": "https://github.com/gyi2521/MyNewPortfolio#readme"
+}
