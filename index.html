@@ -1,163 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <title>Gina's Portfolio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-    crossorigin="anonymous">
-  <title>Gina's Portfolio</title>
-</head>
-
-<body>
-  <header>
-    <nav>
-      <ul class="social-media">
-        <li class="social-media-item">
-          <a href="https://github.com/gyi2521" target="_blank" class="social-media-link">
-            <i class="fab fa-github" title="github"></i>
-          </a>
-        </li>
-        <li class="social-media-item">
-          <a href="https://www.linkedin.com/in/gina-yi-691945135" target="_blank" class="social-media-link">
-            <i class="fab fa-linkedin" title="linkedin"></i>
-          </a>
-        </li>
-        <li class="social-media-item">
-          <a href="https://drive.google.com/open?id=1qXg67MUS0nAFwpnbThNHp8VWXzbFtSjX" target="_blank" class="social-media-link">
-            <i class="fa fa-file" title="Resume"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <h1>Gina Yi</h1>
-    <h2>Welcome to my portfolio page...</h2>
-  </header>
-  <main>
-    <div class="box insta" url="https://instagramclone-gyi.herokuapp.com">
+  <body>
+    <header>
+      <nav>
+        <ul class="social-media">
+          <li class="social-media-item">
+            <a
+              href="https://github.com/gyi2521"
+              target="_blank"
+              class="social-media-link"
+            >
+              <i class="fab fa-github" title="github"></i>
+            </a>
+          </li>
+          <li class="social-media-item">
+            <a
+              href="https://www.linkedin.com/in/gina-yi-691945135"
+              target="_blank"
+              class="social-media-link"
+            >
+              <i class="fab fa-linkedin" title="linkedin"></i>
+            </a>
+          </li>
+          <li class="social-media-item">
+            <a
+              href="https://drive.google.com/open?id=1qXg67MUS0nAFwpnbThNHp8VWXzbFtSjX"
+              target="_blank"
+              class="social-media-link"
+            >
+              <i class="fa fa-file" title="Resume"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <h1>Gina Yi</h1>
+      <h2>Welcome to my portfolio page...</h2>
+    </header>
+    <main>
+      <div class="box insta" url="https://instagramclone-gyi.herokuapp.com">
+        <p>CWDH</p>
+        <div class="box-overlay">
+          <div class="box-overlay-text">
+            Tech Stack: React.js, Node.js, Material Ui, Chart.js, Firebase
+            Firestore
+          </div>
+        </div>
+      </div>
+      <!-- <div class="box insta" url="https://instagramclone-gyi.herokuapp.com">
       <p>Instagram Clone Project</p>
       <div class="box-overlay">
         <div class="box-overlay-text">
           Tech Stack: Node.js, Express, MongoDB, HTML5, CSS3
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="box kentec" url="http://ginimoms.com/kentec/index.html">
-      <p>PER Kentec</p>
-      <div class="box-overlay">
-        <div class="box-overlay-text">
-          Tech Stack: Bootstrap3, jQuery, CSS3, HTML5, PhotoShop
+      <div class="box kentec" url="http://ginimoms.com/kentec/index.html">
+        <p>PER Kentec</p>
+        <div class="box-overlay">
+          <div class="box-overlay-text">
+            Tech Stack: Bootstrap3, jQuery, CSS3, HTML5, PhotoShop
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="box hkgold" url="http://hkgoldgrills.com/">
-      <p>HK Gold Grills</p>
-      <div class="box-overlay">
-        <div class="box-overlay-text">
-          Tech Stack: WordPress, WooCommerce, HTML5, CSS3, PhotoShop
+      <div class="box hkgold" url="http://hkgoldgrills.com/">
+        <p>HK Gold Grills</p>
+        <div class="box-overlay">
+          <div class="box-overlay-text">
+            Tech Stack: WordPress, WooCommerce, HTML5, CSS3, PhotoShop
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="box toasti" url="https://toasti-app.herokuapp.com">
-      <p>Toasti - Cocktail Recipe App</p>
-      <div class="box-overlay">
-        <div class="box-overlay-text">
-          Tech Stack: Node.js, Express, MySQL, HTML5, CSS3, Mocha, Chai
+      <div class="box toasti" url="https://toasti-app.herokuapp.com">
+        <p>Toasti - Cocktail Recipe App</p>
+        <div class="box-overlay">
+          <div class="box-overlay-text">
+            Tech Stack: Node.js, Express, MySQL, HTML5, CSS3, Mocha, Chai
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="box topYori" url="https://top-yori.herokuapp.com/">
-      <p>Top Yori - Find Popular dish</p>
-      <div class="box-overlay">
-        <div class="box-overlay-text">
-          Tech Stack: React.js, Node.js, Express, MongoDB, SemanticUI
+      <div class="box topYori" url="https://top-yori.herokuapp.com/">
+        <p>Top Yori - Find Popular dish</p>
+        <div class="box-overlay">
+          <div class="box-overlay-text">
+            Tech Stack: React.js, Node.js, Express, MongoDB, SemanticUI
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="box tint" url="https://www.tintwholesale.com/">
-      <p>Tint Wholesale</p>
-      <div class="box-overlay">
-        <div class="box-overlay-text">
-          Tech Stack: WordPress, WooCommerce, HTML5, CSS3, PhotoShop
+      <div class="box tint" url="https://www.tintwholesale.com/">
+        <p>Tint Wholesale</p>
+        <div class="box-overlay">
+          <div class="box-overlay-text">
+            Tech Stack: WordPress, WooCommerce, HTML5, CSS3, PhotoShop
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="box toDoSocketIO" url="https://todolistwithsocket.herokuapp.com/">
-      <p>ToDo App - Socket.io</p>
-      <div class="box-overlay">
-        <div class="box-overlay-text">
-          Tech Stack: Node.js, Express, Socket.io, MongoDB, HTML5, CSS3
+      <div
+        class="box toDoSocketIO"
+        url="https://todolistwithsocket.herokuapp.com/"
+      >
+        <p>ToDo App - Socket.io</p>
+        <div class="box-overlay">
+          <div class="box-overlay-text">
+            Tech Stack: Node.js, Express, Socket.io, MongoDB, HTML5, CSS3
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="box cbmc" url="http://kcbmcnaconference.org/">
-      <p>CBMC</p>
-      <div class="box-overlay">
-        <div class="box-overlay-text">
-          Tech Stack: WordPress, HTML5, CSS3, PhotoShop
+      <div class="box cbmc" url="http://kcbmcnaconference.org/">
+        <p>CBMC</p>
+        <div class="box-overlay">
+          <div class="box-overlay-text">
+            Tech Stack: WordPress, HTML5, CSS3, PhotoShop
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="box toDoMySQL" url="https://todo-app-with-mysql-db.herokuapp.com/">
-      <p>ToDo App - MySQL</p>
-      <div class="box-overlay">
-        <div class="box-overlay-text">
-          Tech Stack: Node.js, Express, MySQL, HTML5, CSS3
+      <div
+        class="box toDoMySQL"
+        url="https://todo-app-with-mysql-db.herokuapp.com/"
+      >
+        <p>ToDo App - MySQL</p>
+        <div class="box-overlay">
+          <div class="box-overlay-text">
+            Tech Stack: Node.js, Express, MySQL, HTML5, CSS3
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="box mingChiro" url="http://www.mingchiro.com">
-      <p>Ming Chiropractic</p>
-      <div class="box-overlay">
-        <div class="box-overlay-text">
-          Tech Stack: HTML5, CSS3, PhotoShop
+      <div class="box mingChiro" url="http://www.mingchiro.com">
+        <p>Ming Chiropractic</p>
+        <div class="box-overlay">
+          <div class="box-overlay-text">Tech Stack: HTML5, CSS3, PhotoShop</div>
         </div>
       </div>
-    </div>
 
-    <div class="box beomho" url="http://beomhousa.com//">
-      <p>BeomhoUSA</p>
-      <div class="box-overlay">
-        <div class="box-overlay-text">
-          Tech Stack: WordPress, HTML5, CSS3, PhotoShop
+      <div class="box beomho" url="http://beomhousa.com//">
+        <p>BeomhoUSA</p>
+        <div class="box-overlay">
+          <div class="box-overlay-text">
+            Tech Stack: WordPress, HTML5, CSS3, PhotoShop
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="box ginimoms" url="http://www.ginimoms.com">
-      <p>Ginimoms - Parents Resources</p>
-      <div class="box-overlay">
-        <div class="box-overlay-text">
-          Tech Stack: ASP.net, jQuery, HTML, CSS, Microsoft Access, PhotoShop
+      <div class="box ginimoms" url="http://www.ginimoms.com">
+        <p>Ginimoms - Parents Resources</p>
+        <div class="box-overlay">
+          <div class="box-overlay-text">
+            Tech Stack: ASP.net, jQuery, HTML, CSS, Microsoft Access, PhotoShop
+          </div>
         </div>
       </div>
-    </div>
-  </main>
-  <footer>
-    <div class="footer-copyright">&copy;
-      <script>document.write(new Date().getFullYear());</script> Gina Yi.&nbsp; All Rights Reserved.
-    </div>
-  </footer>
-</body>
-<script>
-  $(document).ready(function () {
-    $(".box").click(function () {
-      window.open($(this).attr("url"));
+    </main>
+    <footer>
+      <div class="footer-copyright">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Gina Yi.&nbsp; All Rights Reserved.
+      </div>
+    </footer>
+  </body>
+  <script>
+    $(document).ready(function () {
+      $(".box").click(function () {
+        window.open($(this).attr("url"));
+      });
     });
-  });
-</script>
-
+  </script>
 </html>
